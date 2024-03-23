@@ -1,0 +1,39 @@
+body {
+  background-image: url(./cloudy.jpg);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+  background-size: cover;
+  backdrop-filter: blur(2px);
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+h1 {
+  padding-top: 15rem;
+}
+h1.explore {
+  font-family: "Tenor Sans", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 5rem;
+}
+.THE {
+  margin-left: 12rem;
+  font-size: 40px;
+  font-weight: 600;
+}
+.unseen {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 3rem;
+  font-weight: 400;
+  margin-left: 7rem;
+}
+.navbar {
+  background-color: rgb(165, 223, 218);
+  overflow-y: hidden;
+  overflow-x: hidden;
+  margin: 0 auto;
+}
+.navbar-brand {
+  font-weight: 500;
+}
